@@ -1,0 +1,173 @@
+body {
+  background-image: url("background.png");
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ruler {
+  border-radius: 5px;
+  background-color: rgb(6, 19, 26);
+  padding: 0px 0px;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  opacity: 90%;
+}
+.ruler {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ruler li {
+  border: 2px solid rgb(167, 190, 203);
+  padding: 10px;
+  list-style: none;
+  margin: 5px;
+  flex-basis: auto;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+.ruler li a {
+  text-decoration: none;
+  color: rgb(167, 190, 203);
+}
+nav a:hover {
+  color: #ffffff;
+  font-size: 13.5px;
+}
+
+.ruler .search {
+  flex-grow: 1;
+  border-style: none;
+  margin: 5px 0px;
+}
+.ruler .search input {
+  background-color: rgb(167, 190, 203);
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.ruler .contact {
+  border: rgb(167, 190, 203) solid 1px;
+  background-color: rgba(3, 95, 129, 0.701);
+  padding: 10px;
+  margin: 10px 30px;
+  /* border-radius: 5px; */
+  opacity: 100%;
+}
+.ruler .contact a {
+  color: azure;
+}
+
+.intro {
+  background-color: rgb(6, 19, 26);
+  margin: 70px 250px 0px 250px;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 50px;
+  display: flexbox;
+  width: auto;
+}
+
+.intro h2 {
+  font-size: 35px;
+  color: azure;
+}
+.intro h1 {
+  font-size: 55px;
+  color: azure;
+}
+.tabs {
+  padding: 0px;
+  margin: 0px 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: wrap;
+  align-content: center;
+  width: auto;
+  flex: none;
+}
+.tabs div:hover {
+  /* border: azure 2px solid; */
+  background-color: rgb(5, 35, 46);
+}
+.tabs .AboutTab {
+  background-color: rgb(6, 19, 26);
+  color: azure;
+  border-radius: 50px 50px 5px 50px;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: 10px 5px 5px 5px;
+  width: 200px;
+}
+.tabs .EducationTab {
+  background-color: rgb(6, 19, 26);
+  color: azure;
+  border-radius: 50px 50px 5px 5px;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: 10px 5px 5px 5px;
+  width: 200px;
+}
+.tabs .SkillsTab {
+  background-color: rgb(6, 19, 26);
+  color: azure;
+  border-radius: 50px 50px 50px 5px;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: 10px 5px 5px 5px;
+  width: 200px;
+}
+.tabs .NationalTab {
+  background-color: rgb(6, 19, 26);
+  color: azure;
+  border-radius: 5px 5px 50px 50px;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: 5px 5px 5px 5px;
+  width: 200px;
+}
+.tabs .InterestsTab {
+  background-color: rgb(6, 19, 26);
+  color: azure;
+  border-radius: 5px 5px 50px 50px;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: 5px 5px 5px 5px;
+  width: 200px;
+}
+.tabs .btn {
+  background-color: rgba(3, 95, 129, 0.701);
+  color: azure;
+  padding: 9px;
+  border-radius: 10px;
+  width: 120px;
+  margin: 10px;
+  text-decoration: none;
+}
+.tabs .btn:hover {
+  border: azure 2px solid;
+  background-color: rgba(3, 95, 129, 0.701);
+}
+.intro {
+  margin: 70px 100px 0px 100px;
+  animation-name: grow_intro;
+  animation-duration: 1s;
+}
+@keyframes grow_intro {
+  from {
+    margin: 90px 100px 50px 100px;
+  }
+  to {
+    margin: 70px 100px 0px 100px;
+  }
+}

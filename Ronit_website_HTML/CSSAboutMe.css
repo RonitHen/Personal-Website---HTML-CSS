@@ -1,0 +1,38 @@
+body {
+  background-image: url("background.png");
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.about {
+  background-color: rgb(6, 19, 26);
+  margin: 70px;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  color: azure;
+  display: inline-flexbox;
+  justify-content: center;
+}
+
+@keyframes grow {
+  from {
+    width: 250px;
+  }
+  to {
+    width: 300px;
+  }
+}
+
+.profile img {
+  margin: 0px;
+  width: 250px;
+  border-radius: 800px;
+}
+
+.profile img {
+  width: 300px;
+  animation-name: grow;
+  animation-duration: 1s;
+}
